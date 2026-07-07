@@ -1,0 +1,102 @@
+body {
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    align-self: center;  
+    background-image: url(resources/background_chess.jpg);
+    background-position: fixed;
+    border-radius: 6px;
+    border: 7px solid #6e0719;
+    font-family: "VT323", monospace;
+    font-size: large;
+}
+a{
+    color:#6e0719;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+    font-style: italic;
+}
+h1{
+    font-family: "Gochi Hand", cursive;
+}
+/*header*/
+header {
+    text-align: center;
+    padding: 5px;
+    color: #6e0719;
+    border-bottom: 2px dashed #6e0719;
+    background-color: rgb(255, 243, 224);
+    font-family: "VT323", monospace;
+    font-size: large;
+}
+/*navegation*/
+nav {
+    padding: 7px;
+    text-align: center;
+    border-bottom: 2px dashed #6e0719;
+    background-color: rgb(255, 243, 224);
+    font-family: "VT323", monospace;
+    font-size: large;
+}
+nav a{
+    margin: 15px;
+}
+.page-wrapper {
+    display: flex;
+    max-width: auto;
+    gap: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+    background-image: url(resources/background_reddotted.jpg);
+    background-size:contain;
+    font-family: "VT323", monospace;
+    font-size: large;
+    color: #6e0719;
+}
+main{
+    padding: 10px;
+    flex:4;
+    text-align:justify;
+    background-color:rgb(255, 243, 224);
+}
+main h2{
+    font-family: "Gochi Hand", cursive;
+}
+main ul {
+    list-style: none;
+    padding: 0;
+}
+/*aside*/
+aside{
+    padding: 10px;
+    flex:1;
+    text-align: center;
+    background-color: rgb(255, 243, 224);
+}
+aside h2{
+    font-family: "Gochi Hand", cursive;
+}
+aside ul {
+    list-style: none;
+    padding: 0;
+    font-family: "VT323", monospace;
+    font-size: large;
+}
+/*footer*/
+footer {
+    padding: 5px;
+    text-align: center;
+    font-style: italic;
+    border-top: 2px dashed #6e0719;
+    background-color: rgb(255, 243, 224);
+    color: #6e0719;
+}
+footer a:hover {
+    color: black;
+    font-style: normal;
+}
+footer h3{
+    font-style: italic;
+}
